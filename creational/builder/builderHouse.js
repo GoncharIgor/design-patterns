@@ -1,6 +1,13 @@
 // Problem:
 // const myHouse = new House(‘John Street 14’, 4, true, true);
 
+// Architecture in nutshell:
+// Builder class at the final end has to return the entity object:
+// build() {return new House(this);}
+// Thus:
+// - Builder class constructor has to accept simple values to start with
+// - Entity class constructor has to accept builder object
+
 export class House {
     constructor(houseBuilder) {
         this.address = houseBuilder.address; // address - getter from "HouseBuilder" class

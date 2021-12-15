@@ -54,11 +54,11 @@ class Tag {
     }
 
     static create(name) {
-        return new HtmlBuilder(name);
+        return new HtmlTagBuilder(name);
     }
 }
 
-class HtmlBuilder {
+class HtmlTagBuilder {
     constructor(rootName) {
         this.root = new Tag(rootName);
         this.rootName = rootName;
@@ -91,8 +91,8 @@ class HtmlBuilder {
 
 console.log('--- Builder approach ---');
 
-// const builder = new HtmlBuilder('ul');
-// instead of initializing HtmlBuilder object directly, we do it by calling a f()
+// const builder = new HtmlTagBuilder('ul');
+// instead of initializing HtmlTagBuilder object directly, we do it by calling a f()
 const builder = Tag.create('ul');
 
 words.forEach(word => {
