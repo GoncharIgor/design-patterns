@@ -3,7 +3,8 @@
   - Explicit (constructor) vs Implicit (DI, reflection)
   - - Builder
   - - Factory
-  - - Prototype
+  - - Prototype: partially construct object -> deep clone it -> customize result
+  - - Singleton: good for DB repo, Object factory
 2. Structural:
   - concern about structure of class members
   - a lot of them are wrappers around classes
