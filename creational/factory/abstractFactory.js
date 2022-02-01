@@ -1,4 +1,4 @@
-// we can hierarchy of objects and we can have related hierarchy of types
+// we have hierarchy of objects and we can have related hierarchy of types
 
 const readline = require('readline');
 const readLine = readline.createInterface({

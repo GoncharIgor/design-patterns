@@ -1,0 +1,5 @@
+Amsterdam-980000
+London-3900000
+Dubai-3800000
+New York-9500000
+Seoul-2200000
