@@ -74,3 +74,7 @@ circle.draw();
 
 // here we saved code from adding new classes: CircleVector, CircleRaster, SquareVector, SquareRaster
 // limitation - increasing amount of methods inside renderer that will equal amount of shapes
+
+
+// Another example with devices:
+// https://www.dofactory.com/javascript/design-patterns/bridge#example
