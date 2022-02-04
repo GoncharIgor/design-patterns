@@ -25,3 +25,5 @@ console.log('Are 2 objects is the same entity, they have same link? ' + (s1 === 
 // - constructor returns the same instance of an O
 // - Monostate: many instances of Object, 1 shared data
 // directly depend on Singleton is bad - better to use dependency in constructor (e.g.: pass DB instance in the constructor)
+
+// JS modules are singletones: both commonJs (require) and ESM (import)
