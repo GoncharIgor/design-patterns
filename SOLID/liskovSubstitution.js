@@ -15,11 +15,11 @@ class Rectangle {
         this.height = height;
     }
 
-    setWidth(width){
+    setWidth(width) {
         this.width = width;
     }
 
-    setHeight(height){
+    setHeight(height) {
         this.height = height;
     }
 
@@ -27,7 +27,7 @@ class Rectangle {
         return this.width * this.height;
     }
 
-    toString(){
+    toString() {
         return `${this.width} x ${this.height}`;
     }
 }
@@ -53,7 +53,7 @@ function increaseRectangleWidth(rectangle) {
     rectangle.setWidth(rectangle.width + 1);
 }
 
-const rect = new Rectangle(5,5);
+const rect = new Rectangle(5, 5);
 const square = new Square(5);
 
 console.log('Before increase:');
